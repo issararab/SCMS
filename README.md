@@ -15,11 +15,16 @@ For the tool to be compiled and run succefully, the user needs to make sure the 
 
         git clone https://github.com/issararab/SPECTRA.git
         cd SPECTRA
+        cd CMSystem
         mvn clean install
         
-The Jar file of the tool will be available in 'target' folder named 'spectra.jar'. You can move it to any desired folder and run as follows:
+The Jar file of the tool, named 'spectra.jar', will be generated and available in 'target' folder of the project. You can move it to any desired folder and run it as follows:
         
-        java -jar spectra.jar <path_to_java_project> <path_to_output_csv_file>
+        #for class level metrics of a given java project
+        java -jar spectra.jar <path_to_java_project> <path_to_output_csv_file>     
+ OR
+        #for method level metrics of a given java file
+        java -jar spectra.jar <path_to_java_file> <path_to_output_csv_file> -method_level
         
  # Metrics
  The method and class level metrics are based on statement level metrics described bellow.
