@@ -22,7 +22,9 @@ The Jar file of the tool, named 'spectra.jar', will be generated and available i
         
         #for class level metrics of a given java project
         java -jar spectra.jar <path_to_java_project> <path_to_output_csv_file>     
- OR
+
+OR
+
         #for method level metrics of a given java file
         java -jar spectra.jar <path_to_java_file> <path_to_output_csv_file> -method_level
         
