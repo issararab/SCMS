@@ -4,7 +4,7 @@ Two functionalities:
 
 - Given a path to a java file and appending the method_level flag in the commad, Spectra tool compiles a taxonomy of all method level complexity metrics based on statement level metrics. (see the set of metrics below).
 
-The tool can compute the set of complexity metrics for any java project and outputs the result to a specified .csv file. For project processing, Each line consists of: the path to the java file, name of the class, type of the class, and followed by the set of comma separated class level metric values. For java file processing, Each line consists of: the name of the class, the name of the method, and followed by the set of comma separated method level metric values.
+The tool can compute the set of complexity metrics for any java project and outputs the result to a specified .csv file. For project processing, Each line consists of: the path to the java file, name of the class, type of the class, and then followed by the set of comma separated class level metric values. For java file processing, Each line consists of: the name of the class, the name of the method, and then followed by the set of comma separated method level metric values.
 
 # Prerequisites
 For the tool to be compiled and run succefully, the user needs to make sure the following are installed:
