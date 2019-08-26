@@ -20,6 +20,8 @@ The Jar file of the tool will be available in 'target' folder named 'spectra.jar
         java -jar spectra.jar <path_to_java_project> <path_to_output_csv_file>
         
  # Metrics
+ The method and class level metrics are based on statement level metrics described bellow.
+ 
  ## Statement level metrics
  
  ## Method level metrics
