@@ -3,7 +3,7 @@ Giving the path to a java project, Spectra tool compiles a taxonomy of all class
 
 Also, given a path to a java file, the tool can also output the set of method level or statement level complexity metrics, described bellow, if specified in the command.
 
-The tool can compute the set of complexity metrics for any java project and outputs the result to a specified .csv file.
+The tool can compute the set of complexity metrics for any java project and outputs the result to a specified .csv file. Each line consisting of the path to the file, name of the class or method, and followed by the set of comma separated metric values.
 # Prerequisites
 For the tool to be compiled and run succefully, the user needs to make sure the following are installed:
 - JDK 8 or higher
