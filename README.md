@@ -40,5 +40,40 @@ OR
 | DU | Data Usage |
 
  ## Method level metrics
+| Metric Short Name	| Short Description |
+| --- | --- |
+| MaxOp |	Maximum of number of operators of each statement in the method. Metric based on the statements results |
+| TotOp |	Total of number of operators of each statement in the method. Metric based on the statements results |
+| MaxLev |	Maximum of number of levels at each statement in the method. Metric based on the statements results |
+| TotLev |	Total of number of levels at each statement in the method. Metric based on the statements results|
+| MaxDF |	Maximum of number of data flow of each statement in the method. Metric based on the statements results |
+| TotDF |	Total of number of data flow of each statement in the method. Metric based on the statements results |
+| MaxDU |	Maximum of number of data usage of each statement in the method. Metric based on the statements results |
+| TotDU |	Total of number of data usage of each statement in the method. Metric based on the statements results |
+| InMetCall |	Number of within class method calls of the method in question |
+
  
  ## Class level metrics
+| Metric Short Name	| Short Description |
+| --- | --- |
+| Tot2Op | Counts the total number of operators. (method output based) |
+| TotMaxOp | Counts the total of the max operators. (method output based) |
+| Max2Op | Counts the max of max operators. (method output based) |
+| MaxTotOp | Counts the max of the total number of operators. (method output based) |
+| Tot2Lev | Counts the total number of levels in the whole class code. (method output based) |
+| TotMaxLev | Counts the sum of the maximum level in each method. |
+| MaxTotLev | Counts the max of the total number of levels in each method. |
+| Max2Lev | Counts the max level in the whole class, i.e. the deepest branch. (method output based) |
+| Tot2DU | Counts the total number of data usage in the class. (method output based) |
+| TotMaxDU | Counts the total number of the max data usage in the class. (method output based) |
+| MaxTotDU |	Counts the max of the total number of data usage in each method. (method output based) |
+| Max2DU |	Counts the max of max data usage. (method output based) |
+| Tot2DF | Counts the total number of data flows in a class. (method output based) |
+| TotMaxDF | Counts the total of the max data flows in each method of the class. (method output based) |
+| Max2DF | Counts the max of max data flows in each method of the class. (method output based) |
+| MaxTotDF |  Counts the max of the total data flows in each method of the class. (method output based) |
+| TotInMetCall | Counts the total number of within class method calls. (method output based) |
+| MaxInMetCall | Counts the max number of within class method calls. (method output based) |
+| inOutDeg | Counts the number of in class call of external methods. Similar to out degrees of a dynamic call graph. |
+| pubMembers |	Counts the number of members in a class. |
+
