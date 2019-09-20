@@ -29,10 +29,16 @@ OR
         java -jar spectra.jar <path_to_java_file> <path_to_output_csv_file> -method_level
         
  # Metrics
- The method and class level metrics are based on statement level metrics described bellow.
+ The software follows a botttum-up approach to compile method and class level metrics based on statement level metrics. The tables bellow gives an overview of the metrics measured at each granularity level:
  
  ## Statement level metrics
- 
+| Metric Short Name	| Short Description |
+| --- | --- |
+| NumOp	| Number of Operators |
+| NumLev |	Number of Levels |
+| DF | Data Flow |
+| DU | Data Usage |
+
  ## Method level metrics
  
  ## Class level metrics
