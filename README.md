@@ -62,8 +62,8 @@ OR
 | Max2Op | Counts the max of max operators. (method output based) |
 | MaxTotOp | Counts the max of the total number of operators. (method output based) |
 | Tot2Lev | Counts the total number of levels in the whole class code. (method output based) |
-| TotMaxLev | Counts the sum of the maximum level in each method. |
-| MaxTotLev | Counts the max of the total number of levels in each method. |
+| TotMaxLev | Counts the sum of the maximum level in each method |
+| MaxTotLev | Counts the max of the total number of levels in each method |
 | Max2Lev | Counts the max level in the whole class, i.e. the deepest branch. (method output based) |
 | Tot2DU | Counts the total number of data usage in the class. (method output based) |
 | TotMaxDU | Counts the total number of the max data usage in the class. (method output based) |
@@ -75,6 +75,6 @@ OR
 | MaxTotDF |  Counts the max of the total data flows in each method of the class. (method output based) |
 | TotInMetCall | Counts the total number of within class method calls. (method output based) |
 | MaxInMetCall | Counts the max number of within class method calls. (method output based) |
-| inOutDeg | Counts the number of in class call of external methods. Similar to out degrees of a dynamic call graph. |
-| pubMembers |	Counts the number of members in a class. |
+| inOutDeg | Counts the number of in class call of external methods. Similar to out degrees of a dynamic call graph |
+| pubMembers |	Counts the number of members in a class |
 
