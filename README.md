@@ -1,5 +1,7 @@
-# SPECTRA
-Two functionalities:
+# SCMS
+SCMS stands for Spectra Complexity Metric System.
+
+The main two functionalities of the tool are:
 - Giving a path to a java project, Spectra tool compiles a taxonomy of all class level complexity metrics based on method and statement level metrics. 
 
 - Given a path to a java file and appending the method_level flag in the commad, Spectra tool compiles a taxonomy of all method level complexity metrics based on statement level metrics. (see the set of metrics below).
