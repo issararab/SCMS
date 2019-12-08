@@ -8,18 +8,18 @@ The main two functionalities of the tool are:
 
 The tool can compute the set of complexity metrics for any java project and outputs the result to a specified .csv file. For project processing, Each line consists of: the path to the java file, name of the class, type of the class, and then followed by the set of comma separated class level metric values. For java file processing, Each line consists of: the name of the class, the name of the method, and then followed by the set of comma separated method level metric values.
 
-#  Publication
+##  Publication
 
 [I. Arab, B. Falah, K. Magel "SCMS: Tool for Assessing a Novel Taxonomy of Complexity Metrics for any Java Project at the Class and Method Levels based on Statement Level Metrics", Advances in Science, Technology and Engineering Systems Journal, vol. 4, no. 6, pp. 220-228 (2019) doi: 10.25046/aj040629](https://astesj.com/v04/i06/p29/).
 
-# UML Class Diagram
+## UML Class Diagram
 ![](SCMS_UML.png?style=centerme)
-# Prerequisites
+## Prerequisites
 For the tool to be compiled and run succefully, the user needs to make sure the following are installed:
 - JDK 8 or higher
 - Maven 3 or higher
 
-# Compile and run
+## Compile and run
 
         git clone https://github.com/issararab/SPECTRA.git
         cd SPECTRA
@@ -36,10 +36,10 @@ OR
         #for method level metrics of a given java file
         java -jar spectra.jar <path_to_java_file> <path_to_output_csv_file> -method_level
         
- # Metrics
+ ## Metrics
  The software follows a botttum-up approach to compile method and class level metrics based on statement level metrics. The tables bellow gives an overview of the metrics measured at each granularity level:
  
- ## Statement level metrics
+ ### Statement level metrics
 | Metric Short Name	| Short Description |
 | --- | --- |
 | NumOp	| Number of Operators |
@@ -47,7 +47,7 @@ OR
 | DF | Data Flow |
 | DU | Data Usage |
 
- ## Method level metrics
+ ### Method level metrics
 | Metric Short Name	| Short Description |
 | --- | --- |
 | MaxOp | Maximum of number of operators of each statement in the method. Metric based on the statements results |
@@ -61,7 +61,7 @@ OR
 | InMetCall |	Number of within class method calls of the method in question |
 
  
- ## Class level metrics
+ ### Class level metrics
 | Metric Short Name	| Short Description |
 | --- | --- |
 | Type | Type of the class |
