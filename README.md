@@ -8,9 +8,10 @@ The main two functionalities of the tool are:
 
 The tool can compute the set of complexity metrics for any java project and outputs the result to a specified .csv file. For project processing, Each line consists of: the path to the java file, name of the class, type of the class, and then followed by the set of comma separated class level metric values. For java file processing, Each line consists of: the name of the class, the name of the method, and then followed by the set of comma separated method level metric values.
 
-##  Publication
+## Publication
+If you use SCMS in your work, please cite the following publication:
 
-[I. Arab, B. Falah, K. Magel "SCMS: Tool for Assessing a Novel Taxonomy of Complexity Metrics for any Java Project at the Class and Method Levels based on Statement Level Metrics", Advances in Science, Technology and Engineering Systems Journal, vol. 4, no. 6, pp. 220-228 (2019) doi: 10.25046/aj040629](https://astesj.com/v04/i06/p29/).
+- I. Arab, B. Falah, K. Magel **SCMS: Tool for Assessing a Novel Taxonomy of Complexity Metrics for any Java Project at the Class and Method Levels based on Statement Level Metrics**, Advances in Science, Technology and Engineering Systems Journal, 2019, vol. 4, no. 6, pp. 220-228, [doi: 10.25046/aj040629]([https://ieeexplore.ieee.org/document/10264890](https://astesj.com/v04/i06/p29/))
 
 ## UML Class Diagram
 ![](SCMS_UML.png?style=centerme)
