@@ -11,7 +11,7 @@ The tool can compute the set of complexity metrics for any java project and outp
 ## Publication
 If you use SCMS in your work, please cite the following publication:
 
-- I. Arab, B. Falah, K. Magel **SCMS: Tool for Assessing a Novel Taxonomy of Complexity Metrics for any Java Project at the Class and Method Levels based on Statement Level Metrics**, Advances in Science, Technology and Engineering Systems Journal, 2019, vol. 4, no. 6, pp. 220-228, [doi: 10.25046/aj040629]([https://ieeexplore.ieee.org/document/10264890](https://astesj.com/v04/i06/p29/))
+- I. Arab, B. Falah, K. Magel **SCMS: Tool for Assessing a Novel Taxonomy of Complexity Metrics for any Java Project at the Class and Method Levels based on Statement Level Metrics**, Advances in Science, Technology and Engineering Systems Journal, 2019, vol. 4, no. 6, pp. 220-228, [doi: 10.25046/aj040629](https://astesj.com/v04/i06/p29/)
 
 ## UML Class Diagram
 ![](SCMS_UML.png?style=centerme)
